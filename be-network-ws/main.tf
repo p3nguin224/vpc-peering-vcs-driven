@@ -36,13 +36,4 @@ resource "aws_nat_gateway" "nat-gw" {
 }
 
 
-# resource "aws_vpc_peering_connection_accepter" "frontend-to-backend-peer" {
-#   vpc_peering_connection_id = aws_vpc_peering_connection.peer.id
-#   auto_accept               = true
-
-#   tags = merge(var.based-tags,
-#     {
-#       Side = "Accepter"
-#   })
-# }
 
