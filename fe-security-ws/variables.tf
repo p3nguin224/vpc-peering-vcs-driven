@@ -26,4 +26,3 @@ variable "management-ip" {
   type        = string
 }
 
-
