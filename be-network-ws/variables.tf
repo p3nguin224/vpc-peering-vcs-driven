@@ -11,6 +11,7 @@ variable "region" {
 variable "vpc-name" {
   description = "VPC Name"
   type        = string
+  default     = "my-vpc"
 }
 
 variable "vpc-cidr" {
