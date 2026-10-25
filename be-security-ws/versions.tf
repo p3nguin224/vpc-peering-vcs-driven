@@ -1,7 +1,7 @@
 terraform {
   required_version = "1.16.6"
   cloud {
-    organization = "vpc-peering-test"
+    organization = "thawzin-tfc"
     workspaces {
       name = "be-security-ws"
     }

@@ -7,7 +7,7 @@ data "aws_availability_zones" "available_az" {
 data "terraform_remote_state" "fe-network-ws" {
   backend = "remote"
   config = {
-    organization = "vpc-peering-test"
+    organization = "thawzin-tfc"
     workspaces = {
       name = "fe-network-ws"
     }

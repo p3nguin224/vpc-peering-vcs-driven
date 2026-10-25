@@ -33,7 +33,7 @@ data "aws_ami" "ubuntu_24_04" {
 data "terraform_remote_state" "be-security-ws" {
   backend = "remote"
   config = {
-    organization = "vpc-peering-test"
+    organization = "thawzin-tfc"
     workspaces = {
       name = "be-security-ws"
     }
@@ -44,7 +44,7 @@ data "terraform_remote_state" "be-security-ws" {
 data "terraform_remote_state" "be-network-ws" {
   backend = "remote"
   config = {
-    organization = "vpc-peering-test"
+    organization = "thawzin-tfc"
     workspaces = {
       name = "be-network-ws"
     }
