@@ -1,24 +1,27 @@
 variable "region" {
   description = "AWS Region"
   type        = string
-  default     = "ap-northeast-1"
+  default     = "ap-southeast-1"
 
 }
 
 variable "peer-region" {
   description = "AWS Region"
   type        = string
+  default     = "ap-northeast-1"
 }
 
 
 variable "vpc-name" {
   description = "VPC Name"
   type        = string
+  default     = "my-fe-vpc"
 }
 
 variable "vpc-cidr" {
   description = "VPC CIDR Range"
   type        = string
+  default     = "10.0.0.0/16"
 }
 
 variable "based-tags" {
