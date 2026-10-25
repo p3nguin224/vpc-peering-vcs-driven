@@ -5,9 +5,6 @@ variable "region" {
 
 }
 
-
-
-
 variable "vpc-name" {
   description = "VPC Name"
   type        = string

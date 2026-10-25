@@ -8,4 +8,5 @@ variable "region" {
 variable "peer-region" {
   description = "AWS Region"
   type        = string
+  default     = "ap-southeast-1"
 }
