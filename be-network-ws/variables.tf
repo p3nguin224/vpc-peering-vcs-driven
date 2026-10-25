@@ -14,7 +14,7 @@ variable "vpc-name" {
 variable "vpc-cidr" {
   description = "VPC CIDR Range"
   type        = string
-  default     = "192.168.0.0/16"
+  default     = "172.22.0.0/16"
 }
 
 variable "based-tags" {
