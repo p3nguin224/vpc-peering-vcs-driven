@@ -20,7 +20,7 @@ variable "key-pair-name" {
 }
 
 variable "instance-type" {
-  description = "Instance type of EC2"
+  description = "Instance type of EC2."
   type        = string
-  default     = "t3.micro"
+  default     = "t3.nano"
 }
